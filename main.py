@@ -34,6 +34,7 @@ def prepare_image(file):
     x = preprocess_input(x)
     return x
 
+
 #Classifier predictor function
 def classifier_predict(file):
     img = prepare_image(file)
